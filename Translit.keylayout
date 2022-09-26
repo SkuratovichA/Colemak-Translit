@@ -166,15 +166,15 @@
 			<key code="1" output="Р"/>
 			<key code="2" action="Д"/>
 			<key code="3" action="Ф"/>
-			<key code="4" action="Ч"/>
+			<key code="4" action="Ь"/>
 			<key code="5" output="Д"/>
 			<key code="6" action="З"/>
 			<key code="7" action="Х"/>
 			<key code="8" action="Ц"/>
 			<key code="9" output="В"/>
-			<key code="10" output="Ъ"/>
+			<key code="10" output="Щ"/>
 			<key code="11" output="Б"/>
-			<key code="12" output="К"/>
+			<key code="12" output="Я"/>
 			<key code="13" output="В"/>
 			<key code="14" action="Е"/>
 			<key code="15" output="П"/>
@@ -212,7 +212,7 @@
 			<key code="47" output="&#x003E;"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key code="50" output="Ь"/>
+			<key code="50" output="`"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
@@ -920,7 +920,7 @@
 		</action>
 		<action id="Х">
 			<when state="none" output="Х"/>
-			<when state="SH" output="Щ"/>
+			<!-- <when state="SH" output="Щ"/> -->
 		</action>
 		<action id="Ц">
 			<when state="none" next="CH"/>
